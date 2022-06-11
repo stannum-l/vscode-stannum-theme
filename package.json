@@ -9,6 +9,7 @@
     "categories": [
         "Themes"
     ],
+    "repository": "https://github.com/stannum-l/vscode-stannum-theme",
     "contributes": {
         "themes": [
             {
