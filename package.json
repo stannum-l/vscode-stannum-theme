@@ -1,0 +1,21 @@
+{
+    "name": "stannum",
+    "displayName": "Stannum",
+    "description": "Tin's theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "stannum",
+                "uiTheme": "hc-black",
+                "path": "./themes/stannum-color-theme.json"
+            }
+        ]
+    }
+}
