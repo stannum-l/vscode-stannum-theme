@@ -31,6 +31,9 @@ While this theme provides basic support to all languages, the initial focused la
 
 ![python](.github/python-theme.png)
 
+### bash script
+
+![bash](.github/bash-theme.png)
 
 ## Install
 
