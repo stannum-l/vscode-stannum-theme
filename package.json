@@ -1,8 +1,8 @@
 {
   "name": "stannum",
   "displayName": "Stannum Theme",
-  "description": "Tin's theme",
-  "version": "0.0.3",
+  "description": "This is a Jetbrains Fleet-inspired theme",
+  "version": "0.0.4",
   "publisher": "stannum",
   "engines": {
     "vscode": "^1.68.0"
