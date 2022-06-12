@@ -1780,6 +1780,14 @@
     },
     {
       "scope": [
+        "string.quoted.double.json"
+      ],
+      "settings": {
+        "foreground": "#91CBF8"
+      }
+    },
+    {
+      "scope": [
         "string.quoted.docstring.multi",
         "string.quoted.docstring.multi.python punctuation.definition.string.begin",
         "string.quoted.docstring.multi.python punctuation.definition.string.end",
