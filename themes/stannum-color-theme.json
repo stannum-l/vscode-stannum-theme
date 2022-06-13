@@ -913,6 +913,24 @@
       }
     },
     {
+      "scope": "entity.other.inherited-class.python",
+      "settings": {
+        "foreground": "#91CBF8"
+      }
+    },
+    {
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#fff75cf6"
+      }
+    },
+    {
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#ff5c5cf6"
+      }
+    },
+    {
       "scope": "constant.other.symbol",
       "settings": {
         "foreground": "#D6D6DD"
