@@ -1940,6 +1940,39 @@
       "settings": {
         "foreground": "#efb080"
       }
-    }
+    },
+    {
+      "scope": [
+        "constant.numeric.version.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#8B56F8"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.image.stage.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#ffff00",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.image.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#F8C762",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.command.shell.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#7affb4",
+        "fontStyle": "italic"
+      }
+    },
   ]
 }
