@@ -948,7 +948,8 @@
       }
     },
     {
-      "scope": "constant.language.python",
+      "scope": ["constant.language.python",
+      "constant.language.go"],
       "settings": {
         "foreground": "#ff5c5cf6"
       }
@@ -1974,5 +1975,14 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "scope": [
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#C6F05A",
+      }
+    }
+
   ]
 }
