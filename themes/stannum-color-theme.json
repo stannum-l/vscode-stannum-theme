@@ -1803,6 +1803,13 @@
       }
     },
     {
+      "scope": ["constant.other.option.shell.dockerfile",
+        "constant.other.option.dash.shell.dockerfile"],
+      "settings": {
+        "foreground": "#F8C762"
+      }
+    },
+    {
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
         "fontStyle": "italic"
@@ -1947,7 +1954,7 @@
         "constant.numeric.version.dockerfile"
       ],
       "settings": {
-        "foreground": "#8B56F8"
+        "foreground": "#91CBF8"
       }
     },
     {
@@ -2023,6 +2030,15 @@
         "foreground": "#FF5C5CF6",
       }
     },
+    {
+      "scope": [
+        "variable.other.label.dockerfile",
+        "variable.other.arg.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#04CEFBEE"
+      }
+    }
 
   ]
 }
