@@ -1982,7 +1982,47 @@
       "settings": {
         "foreground": "#C6F05A",
       }
-    }
+    },
+    {
+      "scope": [
+        "entity.name.import.go"
+      ],
+      "settings": {
+        "foreground": "#B9E600",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.go"
+      ],
+      "settings": {
+        "foreground": "#4267DB",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.receiver.go"
+      ],
+      "settings": {
+        "foreground": "#4267DB",
+      }
+    },
+    {
+      "scope": [
+        "support.function.go"
+      ],
+      "settings": {
+        "foreground": "#AAA0FA",
+      }
+    },
+    {
+      "scope": [
+        "constant.language.json"
+      ],
+      "settings": {
+        "foreground": "#FF5C5CF6",
+      }
+    },
 
   ]
 }
