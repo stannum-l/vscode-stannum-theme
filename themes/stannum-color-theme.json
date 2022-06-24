@@ -2038,6 +2038,30 @@
       "settings": {
         "foreground": "#04CEFBEE"
       }
+    },
+    {
+      "scope": "variable.other.declaration.go",
+      "settings": {
+        "foreground": "#04CEFBEE",
+      }
+    },
+    {
+      "scope": "parameter.other.copy.from.dockerfile",
+      "settings": {
+        "foreground": "#FFFF00",
+      }
+    },
+    {
+      "scope": "variable.other.copy.source.dockerfile",
+      "settings": {
+        "foreground": "#3BED7F",
+      }
+    },
+    {
+      "scope": "variable.other.copy.target.dockerfile",
+      "settings": {
+        "foreground": "#A11F18",
+      }
     }
 
   ]
