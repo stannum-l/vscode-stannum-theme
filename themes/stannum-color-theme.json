@@ -24,6 +24,15 @@
     "property.declaration:javascript": {
       "foreground": "#FAD075"
     },
+    "operator:go": {
+      "foreground": "#FFFF00"
+    },
+    "type.defaultLibrary:go": {
+      "foreground": "#00CC47"
+    },
+    "type:go": {
+      "foreground": "#4B75EA"
+    },
   },
   "colors": {
     "editorInlayHint.foreground": "#838383",
@@ -2003,7 +2012,7 @@
         "entity.name.type.go"
       ],
       "settings": {
-        "foreground": "#4267DB",
+        "foreground": "#EFB080",
       }
     },
     {
@@ -2012,6 +2021,14 @@
       ],
       "settings": {
         "foreground": "#4267DB",
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.channel.go"
+      ],
+      "settings": {
+        "foreground": "#ffff00",
       }
     },
     {
