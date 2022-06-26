@@ -3,36 +3,17 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "class.builtin.typeHint:python": {
-      "foreground": "#00CC47"
-    },
-    "class:python": {
-      "foreground": "#4B75EA"
-    },
-    "class.declaration:python": {
-      "foreground": "#EFB080"
-    },
-    "enumMember": {
-      "foreground": "#D6D6DD"
-    },
-    "variable.constant": {
-      "foreground": "#83D6C5"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#EFB080"
-    },
-    "property.declaration:javascript": {
-      "foreground": "#FAD075"
-    },
-    "operator:go": {
-      "foreground": "#FFFF00"
-    },
-    "type.defaultLibrary:go": {
-      "foreground": "#00CC47"
-    },
-    "type:go": {
-      "foreground": "#4B75EA"
-    },
+    "class.builtin.typeHint:python": "#00CC47",
+    "class:python": "#4B75EA",
+    "class.declaration:python": "#EFB080",
+    "enumMember": "#D6D6DD",
+    "variable.constant": "#83D6C5",
+    "variable.defaultLibrary": "#EFB080",
+    "property.declaration:javascript": "#FAD075",
+    "operator:go": "#FFFF00",
+    "type.defaultLibrary:go": "#00CC47",
+    "type:go": "#4B75EA",
+    "variable.readonly:go": "#FF5C5CF6"
   },
   "colors": {
     "editorInlayHint.foreground": "#838383",
@@ -761,12 +742,12 @@
         "foreground": "#83D6C5"
       }
     },
-    {
-      "scope": "entity.name.namespace",
-      "settings": {
-        "foreground": "#EFB080"
-      }
-    },
+    // {
+    //   "scope": "entity.name.namespace",
+    //   "settings": {
+    //     "foreground": "#EFB080"
+    //   }
+    // },
     {
       "scope": "variable",
       "settings": {
