@@ -5,6 +5,7 @@
   "semanticTokenColors": {
     "class.builtin.typeHint:python": "#00CC47",
     "class:python": "#4B75EA",
+    "class.builtin:python": "#b41de2",
     "class.declaration:python": "#EFB080",
     "enumMember": "#D6D6DD",
     "variable.constant": "#83D6C5",
