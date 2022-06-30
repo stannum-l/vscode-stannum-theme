@@ -14,7 +14,8 @@
     "operator:go": "#FFFF00",
     "type.defaultLibrary:go": "#00CC47",
     "type:go": "#4B75EA",
-    "variable.readonly:go": "#FF5C5CF6"
+    "variable.readonly:go": "#FF5C5CF6",
+    "module:python": "#EFB080"
   },
   "colors": {
     "editorInlayHint.foreground": "#838383",
