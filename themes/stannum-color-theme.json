@@ -7,6 +7,7 @@
     "class:python": "#4B75EA",
     "class.builtin:python": "#b41de2",
     "class.declaration:python": "#EFB080",
+    "variable.decorator:python": "#FFF75CF6",
     "enumMember": "#D6D6DD",
     "variable.constant": "#83D6C5",
     "variable.defaultLibrary": "#EFB080",
