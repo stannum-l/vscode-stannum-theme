@@ -1841,18 +1841,6 @@
       }
     },
     {
-      "scope": ["punctuation.definition.variable.shell"],
-      "settings": {
-        "foreground": "#6272A4"
-      }
-    },
-    {
-      "scope": ["variable.other.bracket.shell", "variable.other.normal.shell"],
-      "settings": {
-        "foreground": "#04CCFB"
-      }
-    },
-    {
       "scope": ["string.unquoted.block.yaml"],
       "settings": {
         "foreground": "#90F06C"
@@ -2063,7 +2051,43 @@
       "settings": {
         "foreground": "#A11F18",
       }
-    }
-
+    },
+    {
+      "scope": ["meta.shebang.shell",
+        "punctuation.definition.comment.shebang.shell"],
+      "settings": {
+        "foreground": "#ff0000",
+      }
+    },
+    {
+      "scope": ["variable.other.assignment.shell"],
+      "settings": {
+        "foreground": "#04CCFB",
+      }
+    },
+    {
+      "scope": ["meta.statement.shell"],
+      "settings": {
+        "foreground": "#FAD075",
+      }
+    },
+    {
+      "scope": ["variable.other.normal.shell"],
+      "settings": {
+        "foreground": "#ff0000",
+      }
+    },
+    {
+      "scope": ["punctuation.definition.variable.shell"],
+      "settings": {
+        "foreground": "#6272A4"
+      }
+    },
+    {
+      "scope": ["variable.other.bracket.shell", "variable.other.normal.shell"],
+      "settings": {
+        "foreground": "#EBF046"
+      }
+    },
   ]
 }

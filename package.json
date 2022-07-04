@@ -1,43 +1,43 @@
 {
-	"name": "stannum",
-	"displayName": "Stannum Theme",
-	"description": "This is a Jetbrains Fleet-inspired theme",
-	"version": "0.0.4",
-	"preview": true,
-	"publisher": "stannum",
-	"license": "MIT",
-	"engines": {
-		"vscode": "^1.68.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stannum-l/vscode-stannum-theme"
-	},
-	"bugs": {
-		"url": "https://github.com/stannum-l/vscode-stannum-theme/issues"
-	},
-	"keywords": [
-		"theme",
-		"dark"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "stannum",
-				"uiTheme": "vs-dark",
-				"path": "./themes/stannum-color-theme.json"
-			}
-		]
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"__metadata": {
-		"id": "3f002f34-9950-494b-be69-53dcca2cfd5c",
-		"publisherDisplayName": "Tin Lam",
-		"publisherId": "487381f7-6134-4868-858a-e29d875adf97"
-	}
+  "name": "stannum",
+  "displayName": "Stannum Theme",
+  "description": "This is a Jetbrains Fleet-inspired theme",
+  "version": "0.0.4",
+  "preview": true,
+  "publisher": "stannum",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stannum-l/vscode-stannum-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/stannum-l/vscode-stannum-theme/issues"
+  },
+  "keywords": [
+    "theme",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "stannum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stannum-color-theme.json"
+      }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "__metadata": {
+    "id": "3f002f34-9950-494b-be69-53dcca2cfd5c",
+    "publisherDisplayName": "Tin Lam",
+    "publisherId": "487381f7-6134-4868-858a-e29d875adf97"
+  }
 }
