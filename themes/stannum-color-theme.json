@@ -2068,7 +2068,7 @@
     {
       "scope": ["meta.statement.shell"],
       "settings": {
-        "foreground": "#FAD075",
+        "foreground": "#EBBC4B",
       }
     },
     {
@@ -2087,6 +2087,12 @@
       "scope": ["variable.other.bracket.shell", "variable.other.normal.shell"],
       "settings": {
         "foreground": "#EBF046"
+      }
+    },
+    {
+      "scope": ["string.unquoted.argument.shell"],
+      "settings": {
+        "foreground": "#D6D6DD"
       }
     },
   ]
