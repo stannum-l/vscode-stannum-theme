@@ -16,7 +16,8 @@
     "type.defaultLibrary:go": "#00CC47",
     "type:go": "#4B75EA",
     "variable.readonly:go": "#FF5C5CF6",
-    "module:python": "#EFB080"
+    "namespace:go": "#ea7620",
+    "module:python": "#EFB080",
   },
   "colors": {
     "editorInlayHint.foreground": "#838383",
@@ -1885,7 +1886,8 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#04CEFBEE"
+        "foreground": "#91CBF8"
+        // "foreground": "#04CEFBEE"
       }
     },
     {
@@ -2025,7 +2027,7 @@
         "variable.other.arg.dockerfile"
       ],
       "settings": {
-        "foreground": "#04CEFBEE"
+        "foreground": "#91CBF8"
       }
     },
     {
@@ -2093,6 +2095,12 @@
       "scope": ["string.unquoted.argument.shell"],
       "settings": {
         "foreground": "#D6D6DD"
+      }
+    },
+    {
+      "scope": ["variable.other.readwrite,meta.object-literal.key"],
+      "settings": {
+        "foreground": "#91CBF8"
       }
     },
   ]
