@@ -1917,7 +1917,7 @@
     {
       "scope": ["variable.language.makefile"],
       "settings": {
-        "foreground": "#44F538"
+        "foreground": "#1987E6"
       }
     },
     {
