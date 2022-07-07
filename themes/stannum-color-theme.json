@@ -1597,13 +1597,7 @@
     {
       "scope": ["meta.scope.prerequisites.makefile"],
       "settings": {
-        "foreground": "#D6D6DD"
-      }
-    },
-    {
-      "scope": ["source.makefile"],
-      "settings": {
-        "foreground": "#EFB080"
+        "foreground": "#96e82b"
       }
     },
     {
@@ -2101,6 +2095,24 @@
       "scope": ["variable.other.readwrite,meta.object-literal.key"],
       "settings": {
         "foreground": "#91CBF8"
+      }
+    },
+    {
+      "scope": ["support.function.target.PHONY.makefile"],
+      "settings": {
+        "foreground": "#3f68ff"
+      }
+    },
+    {
+      "scope": ["punctuation.separator.key-value.makefile"],
+      "settings": {
+        "foreground": "#ffd557"
+      }
+    },
+    {
+      "scope": ["constant.character.escape.continuation.makefile"],
+      "settings": {
+        "foreground": "#ff0000"
       }
     },
   ]
