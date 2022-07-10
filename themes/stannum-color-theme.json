@@ -15,9 +15,10 @@
     "operator:go": "#FFFF00",
     "type.defaultLibrary:go": "#00CC47",
     "type:go": "#4B75EA",
-    "variable.readonly:go": "#FF5C5CF6",
-    "namespace:go": "#ea7620",
+    "namespace:go": "#D8277E",
+    "variable.defaultLibrary:go": "#FA634D",
     "module:python": "#EFB080",
+    "variable.definition:go": "#91CBF8",
   },
   "colors": {
     "editorInlayHint.foreground": "#838383",
@@ -567,9 +568,9 @@
       }
     },
     {
-      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "scope": "entity.name.type.module.go",
       "settings": {
-        "foreground": "#D6D6DD"
+        "foreground": "#EA7620"
       }
     },
     {
@@ -1854,7 +1855,9 @@
       }
     },
     {
-      "scope": ["constant.language.boolean.yaml"],
+      "scope": ["constant.language.boolean.yaml",
+        "constant.language.boolean.go",
+        "constant.language.null.go"],
       "settings": {
         "foreground": "#FA634D"
       }
@@ -1980,7 +1983,7 @@
         "entity.name.type.go"
       ],
       "settings": {
-        "foreground": "#EFB080",
+        "foreground": "#4b75ea",
       }
     },
     {
@@ -2092,12 +2095,6 @@
       }
     },
     {
-      "scope": ["variable.other.readwrite,meta.object-literal.key"],
-      "settings": {
-        "foreground": "#91CBF8"
-      }
-    },
-    {
       "scope": ["support.function.target.PHONY.makefile"],
       "settings": {
         "foreground": "#3f68ff"
@@ -2115,5 +2112,67 @@
         "foreground": "#ff0000"
       }
     },
+    {
+      "scope": "meta.function.signature.go",
+      "settings": {
+        "foreground": "#EA7620"
+      }
+    },
+    {
+      "scope": "meta.function.parameters.go",
+      "settings": {
+        "foreground": "#04CEFBEE"
+      }
+    },
+    {
+      "scope": "variable.field.go",
+      "settings": {
+        "foreground": "#D6D6DD"
+      }
+    },
+    {
+      "scope": "support.type.primitive.go",
+      "settings": {
+        "foreground": "#00CC47"
+      }
+    },
+    {
+      "scope": ["keyword.operator.comparison.!=.go",
+        "keyword.operator.assignment.go"],
+      "settings": {
+        "foreground": "#EFED10"
+      }
+    },
+    {
+      "scope": ["variable.other.constant"],
+      "settings": {
+        "foreground": "#FA634D"
+      }
+    },
+    {
+      "scope": ["meta.field.declaration.go variable.field.go"],
+      "settings": {
+        "foreground": "#91CBF8"
+      }
+    },
+    {
+      "scope": ["meta.function.signature.go meta.function.parameters.go variable.field.go"],
+      "settings": {
+        "foreground": "#EA7620"
+      }
+    },
+    {
+      "scope": "variable.other.go",
+      "settings": {
+        "foreground": "#91cbf8"
+      }
+    },
+    {
+      "scope": "variable.field.go",
+      "settings": {
+        "foreground": "#04CEFBEE"
+      }
+    },
+
   ]
 }
