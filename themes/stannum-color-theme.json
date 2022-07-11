@@ -384,6 +384,12 @@
         "foreground": "#D6D6DD"
       }
     },
+    // {
+    //   "scope": "string.interpreted.go",
+    //   "settings": {
+    //     "foreground": "#03D92F"
+    //   }
+    // },
     {
       "scope": "comment markup.link",
       "settings": {
@@ -1755,16 +1761,16 @@
       }
     },
     {
-      "scope": [" meta.brace.square"],
-      "settings": {
-        "foreground": "#D6D6DD"
-      }
-    },
-    {
       "scope": "comment, punctuation.definition.comment",
       "settings": {
         "foreground": "#6D6D6D",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["meta.brace.square"],
+      "settings": {
+        "foreground": "#D6D6DD"
       }
     },
     {
@@ -2173,6 +2179,5 @@
         "foreground": "#04CEFBEE"
       }
     },
-
   ]
 }
