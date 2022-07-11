@@ -2144,6 +2144,7 @@
     },
     {
       "scope": ["keyword.operator.comparison.!=.go",
+        "keyword.operator.comparison.==.go",
         "keyword.operator.assignment.go"],
       "settings": {
         "foreground": "#EFED10"
