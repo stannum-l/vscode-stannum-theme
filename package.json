@@ -7,7 +7,7 @@
   "publisher": "stannum",
   "license": "Apache-2.0",
   "engines": {
-    "vscode": "^1.68.0"
+    "vscode": "^1.107.0"
   },
   "categories": [
     "Themes"
