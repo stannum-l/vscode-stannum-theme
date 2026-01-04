@@ -4,7 +4,7 @@
   "description": "This is a Jetbrains Fleet-inspired theme",
   "author": "Tin Lam <dev@chronospheres.com>",
   "version": "1.0.0",
-  "icon": "images/icon.png",
+  "icon": "asset/icon.png",
   "publisher": "stannum",
   "license": "Apache-2.0",
   "engines": {
