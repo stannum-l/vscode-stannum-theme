@@ -2,7 +2,7 @@
 
 This theme is based off [Jetbrains Fleet Theme](https://marketplace.visualstudio.com/items?itemName=MichaelZhou.fleet-theme), which are based off the looks and feels of [Jetbrains Fleet](https://www.jetbrains.com/fleet).
 
-## NOTE:
+## NOTE
 
 Prior to 0.1.0 release, consider this a developmental plugin.
 While it should work as expected, there will be a lot of frequent update.
@@ -29,7 +29,7 @@ While this theme provides basic support to all languages, the initial focused la
 
 ### python
 
-![python](.github/python-theme.png)
+![python](asset/python-theme.png)
 
 ## Install
 
